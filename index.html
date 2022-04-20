@@ -9,14 +9,26 @@
 
 
 </head>
-<body>
+<body>  
    
     <header>
         
-        <div class= "Navbar">
+        <div class= "Navbar h-nav-resp">
             <nav>
                 <img src="images/logo1.png" class="logo">
-            <ul >
+
+                <!-- <div class="hamburger-menu">
+                    <input id="check" type="checkbox" >
+                    <label class="hamburger-btn" for="check">
+                    <i class="fas fa-bars"></i>
+                    </label> -->
+
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>        
+            <ul class="navlist v-class-resp">
                 
                 <li><a href="about.html" target="blanck"> About </a></li>
                 <li><a href="#"> Home </a></li>
@@ -24,25 +36,32 @@
                 <li><a href="Certificates.html" target="blanck"> Certificates </a></li>
                 
             </ul>
+            
             </nav>
         </div>    
     </header>
  
     <main>
     <div class="greet">
+    <div class="col-1">    
     <h1> Hello Guys <br> I am <span> Rajarshi Roy </span> </h1>
             
-    <p>I am a college student currently pursuing B.Tech in Information Technology  <br>from Kalyani Government Engineering college.<br> I have passion for technology and music. <br> I like to learn and aquire new skills to make myself more productive  <br> every passing day.</p>
+    <p>I am a college student currently pursuing B.Tech in Information Technology from Kalyani Government Engineering college.<br> I have passion for technology and music. <br> I like to learn and aquire new skills to make myself more productive   every passing day.</p>
     <!-- <a href="#"> DOWNLOAD RESUME </a> -->
     <a href="Rajarshi Roy Resume.pdf" target="_blank">DOWNLOAD RESUME</a>
     </div>
     
-    <div >
+    
+    <div class="col-2">
         <img class="image" src="images/profile-pic.png" height="35%" >
     
+    </div>
+
     </div>
     
     
     </main>
+    <script src="resp.js"></script>
+
 </body>
 </html>
